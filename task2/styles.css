@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0078d4;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="color"] {
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0078d4;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.colorDisplay {
+    text-align: center;
+}
+
+#colorBox {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border: 1px solid #333;
+}
+
+#colorCode {
+    font-weight: bold;
+}
+
+#copyButton {
+    margin-top: 20px;
+}
